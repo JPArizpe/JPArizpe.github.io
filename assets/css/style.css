@@ -1916,7 +1916,7 @@ select {
 /*  03 - Hero CSS
 /*----------------------------------------*/
 .tech-hero-section {
-  height: 1120px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
