@@ -71,6 +71,42 @@ body {
   color: "";
 }
 
+#webcoderskull{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.service-item.darkGray {
+  background-color: #ebebeb;
+}
+
+canvas{
+  height:100%;
+}
+
+.overview-img .image img {
+  border-radius: 10px;
+}
+
+.rotate {
+  animation: rotation 40s infinite linear;
+  width: 50%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
 body[dir="rtl"] {
   text-align: right;
 }
@@ -307,7 +343,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*--Section Title Two--*/
 .section-title2 {
-  max-width: 690px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -794,7 +830,7 @@ select {
   position: absolute;
   left: 0;
   top: 0;
-  background: #1b3b82;
+  background: linear-gradient(150deg, #1b3b82 25%, #0ede8f 100%);
   width: 100%;
   z-index: 999;
 }
@@ -3248,10 +3284,9 @@ select {
 }
 
 .service-section-3 .service-wrap-3 .service-slider-wrap .service-item {
-  background: #ffffff;
   padding: 55px;
   border-radius: 10px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 15px 15px 10px rgb(0 0 0 / 6%)
 }
 
 @media only screen and (max-width: 1199px) {
@@ -3610,7 +3645,7 @@ select {
   position: absolute;
   top: 235px;
   left: 65px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .about-section .about-wrap .about-thumb-wrap .play-btn {
@@ -4017,7 +4052,7 @@ select {
 
 .about-section-3 .about-wrap .about-content-wrap .about-thumb-wrap .about-thumb-bottom {
   position: absolute;
-  right: 95px;
+  right: -105px;
   bottom: -45px;
   z-index: 1;
 }
@@ -4039,9 +4074,9 @@ select {
 .about-section-3 .about-wrap .about-content-wrap .about-thumb-wrap .about-thumb-shape {
   text-align: right;
   position: relative;
-  top: -65px;
+  top: -200px;
   right: 5px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .about-section-3 .about-wrap .about-content-wrap .about-content {
@@ -10503,7 +10538,7 @@ select {
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
-  background: #15203b;
+  background: linear-gradient(150deg, #1b3b82 25%, #0ede8f 100%);
   font-size: 18px;
   color: #ffffff;
   transition: all 0.3s linear;
@@ -10565,7 +10600,7 @@ select {
 }
 
 .footer-copyright-3 .copyright-social .social li a {
-  background: #1b3b82;
+  background: linear-gradient(150deg, #1b3b82 25%, #0ede8f 100%);
   color: #ffffff;
   transition: all 0.3s linear;
 }
